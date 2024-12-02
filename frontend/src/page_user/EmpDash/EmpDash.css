@@ -1,0 +1,81 @@
+.emp-dashboard {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  margin: 1rem auto ;
+  max-width: 800px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.summary-item h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.summary-item p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.recent-tasks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 1em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recent-tasks-table thead {
+  background: #333;
+  color: #fff;
+}
+
+.recent-tasks-table th,
+.recent-tasks-table td {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.recent-tasks-table th {
+  font-weight: bold;
+}
+
+.recent-tasks-table tbody tr:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.recent-tasks-table tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+.recent-tasks-table tbody tr:hover {
+  background: #e0f7fa;
+}
+
+.recent-tasks-table td {
+  border: 1px solid #ddd;
+}

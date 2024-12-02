@@ -1,0 +1,24 @@
+/* ทำให้ App และ Layout ขยายเต็มหน้าจอ
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .layout {
+  display: grid;
+  grid-template-columns: 250px 1fr; 
+  height: 100%; 
+}
+
+.sidebar {
+  background-color: #333; 
+  color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+.Employees {
+  padding: 20px;
+  overflow-y: auto; 
+} */

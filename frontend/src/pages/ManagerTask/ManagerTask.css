@@ -1,0 +1,145 @@
+/* .manager-task-container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.formManager-container {
+  flex: 1; 
+  padding: 20px;
+  margin-left: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.task-list-container {
+  flex: 1; 
+  padding: 20px;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-height: 500px;
+  overflow-y: auto; 
+}
+
+.task-list-container {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-height: 500px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.task-list-container h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-header h4 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.task-date {
+  font-size: 14px;
+  color: #888;
+  text-align: right;
+}
+
+.task-description {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #444;
+}
+
+.task-footer p {
+  margin: 0;
+}
+
+.formManager-container input,
+.formManager-container textarea,
+.formManager-container button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.formManager-container textarea {
+  resize: vertical; 
+}
+
+.formManager-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.formManager-container button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px ;
+}
+
+.task-item h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task-item p {
+  margin: 5px 0;
+} */

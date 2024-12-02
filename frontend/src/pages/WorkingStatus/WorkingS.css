@@ -1,0 +1,50 @@
+.daily-contract-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.daily-contract-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.daily-contract-table th{
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: black;
+}
+.daily-contract-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.daily-contract-table th {
+  background: #f8f9fa;
+  font-weight: bold;
+}
+
+.daily-contract-table td {
+  font-size: 0.9rem;
+}
+
+.exceed-hours {
+  color: #dc3545; /* แสดงสีแดงถ้าชั่วโมงเกิน */
+  font-weight: bold;
+}
+
+.under-hours {
+  color: #ffc107; /* แสดงสีเหลืองถ้าชั่วโมงน้อยกว่า 7 */
+}
+
+.daily-contract-table tr:nth-child(even) {
+  background: #f9f9f9;
+}

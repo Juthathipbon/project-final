@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.salary-page-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.salary-page-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.rate-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.rate-input label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.rate-input input {
+  width: 120px;
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s;
+}
+
+.rate-input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.salary-summary {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.salary-summary h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.salary-summary p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+
+.salary-summary strong {
+  font-size: 18px;
+  color: #007bff;
+}
+
+.task-details {
+  margin-top: 30px;
+}
+
+.task-details h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.task-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-details li {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-details li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.task-details h4 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+.task-details p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555555;
+}

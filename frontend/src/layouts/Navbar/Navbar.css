@@ -1,0 +1,13 @@
+.Navbar-content{
+          /* border: 1px solid lightgray; */
+          margin-left: 0.5rem;
+          margin-top: 0.5rem;
+          margin-right: 0.5rem;
+          
+}
+
+.Navbar-menu{
+          display: flex;
+          margin-right: 1rem;
+          align-items: center;
+}

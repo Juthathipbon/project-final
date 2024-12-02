@@ -1,0 +1,30 @@
+.login-container {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+  margin-top: calc(40vh - 150px);
+  height: 400px;
+  width: 500px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-container button {
+  width: 100%;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.checkBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}

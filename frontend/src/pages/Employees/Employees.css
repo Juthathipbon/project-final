@@ -1,0 +1,161 @@
+.employee-overview {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.emp-header {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  margin-bottom: 20px;
+  ;
+}
+
+
+
+.emp-header input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 1rem;
+}
+
+.emp-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.emp-table th, .emp-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.emp-table th {
+  color: white;
+  background-color: #231f20;
+}
+
+.emp-table-modal {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.emp-table-modal th, .emp-table-modal td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.emp-table-modal th {
+  color: white;
+  background-color: #231f20;
+}
+
+/* สำหรับ Modal */
+ .modal-header {
+  background-color: #231f20;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-bottom: none;
+}
+
+.modal-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+/* ฟอร์ม */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="date"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* ปุ่มเพิ่มพนักงาน */
+form .btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* ปรับแต่งสำหรับหน้าจอขนาดเล็ก */
+@media (max-width: 768px) {
+  .modal-body {
+    padding: 15px;
+  }
+
+  form {
+    gap: 10px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="date"] {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  form .btn-primary {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+
+.emp-table button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: white;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* .emp-table button:hover {
+  background-color: #0056b3;
+} */

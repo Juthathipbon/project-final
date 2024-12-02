@@ -1,0 +1,108 @@
+.user-container {
+  border: 1px solid lightgray;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Layout styles */
+.profile-container {
+  padding: 20px;
+  /* font-family: Arial, sans-serif; */
+  background-color: #f9f9fb;
+}
+
+/* Profile section */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-section img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.profile-section h2 {
+  margin: 0;
+}
+
+.profile-section p {
+  margin: 0;
+  color: #555;
+}
+
+/* Section styles */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card h3,
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.card .button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.card .button-group button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.card .button-group button:last-child {
+  border: none;
+  background: #007bff;
+  color: #fff;
+}
+
+.logout-container {
+          margin-bottom: 1rem;
+}
+
+/* .profile-container{
+          border: 1px solid lightgray;
+          border-radius: 1rem;
+          height: 120px;
+          width: 70%;
+}
+
+.profile-top{
+          margin: 1rem;
+}
+
+.profile-name span{
+          margin-left: 1rem;
+          font-size: 18px;
+}
+
+.profile-top span{
+          margin-left: 1rem;
+          font-size: 20px;
+          font-weight: bold;
+} */
